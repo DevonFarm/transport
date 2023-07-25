@@ -1,0 +1,66 @@
+:root {
+  --sans-font: "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans",
+    "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  /* --accent: #1e7a1e; */
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo > img {
+    filter: brightness(0%) invert(1);
+  }
+}
+
+main {
+  padding-bottom: 4rem;
+}
+
+main > img {
+  margin: 0 auto;
+  display: block;
+}
+
+body > header {
+  padding-bottom: 1rem;
+}
+
+header > nav {
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem 0 0;
+}
+
+.logo > img {
+  width: 8rem;
+}
+
+.logo > h1 {
+  margin: auto 0.5rem;
+}
+
+.profile > h2 {
+  margin: 3rem 0 2rem;
+}
+
+.profile > h3,
+.contact > h4,
+.contact > p {
+  margin: 1rem 0;
+}
+
+.contact > h3 {
+  margin: 2rem 0 1rem;
+}
+
+.profile > img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile > .clark {
+  width: 30rem;
+}
